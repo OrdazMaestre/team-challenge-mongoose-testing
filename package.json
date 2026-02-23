@@ -1,0 +1,23 @@
+{
+  "name": "team-challenge-mongoose-testing",
+  "version": "1.0.0",
+  "description": "API de red social con Mongoose y tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -4,7 +4,7 @@ const app = require('../index'); // Asegúrate de que exporta app
 const Post = require('../models/Post');
 
 // Aumentamos el timeout global para este archivo (Atlas es lento a veces)
-jest.setTimeout(30000); // 30 segundos → suficiente para conexión + operaciones
+jest.setTimeout(30000); // 30 segundos → más operaciones
 
 let connection;
 
